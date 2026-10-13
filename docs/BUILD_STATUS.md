@@ -2,6 +2,23 @@
 
 All work is saved as plain files in this folder. Nothing lives only inside a Claude session. If a session ends mid-build, everything written so far is still here and can be picked up from this page.
 
+## Current work: public release and 14 Oct 2026 update (in progress)
+
+If a session stopped part-way, this is where things stand. Everything listed as done is committed in git.
+
+**Done**
+- Phone layouts fixed and tested on every page at 320, 360, 390, 768 and 1280 px (light and dark).
+- GitHub Pages files: `.nojekyll` (needed because `data/_registry.js` starts with an underscore), `manifest.webmanifest`, `assets/icons/`, social tags in `index.html`, public `README.md`, `?v=` release dates on asset URLs.
+- New features: "Report a mistake" links (GitHub issues), an About card in Settings, a "Current affairs" practice set (all questions with `asOf`).
+- Current affairs to 14 Oct 2026: International Affairs (ia-0147 to ia-0214, ia-f101 to ia-f149; notes ia-current, ia-misc, ia-economy, ia-un, ia-orgs, ia-conflicts, ia-treaties), Science/ICT/Geography (sci-0111+, ict-0114+, geo-0081+, matching flashcards; 9 notes). The surprising claims were spot-checked against news sources (UK PM, the 2026 Nobels, Brazil, Morocco, West Bengal, OPEC, the UN Security Council, sports results, index ranks, Rooppur).
+
+**Still to do**
+1. Bangladesh Affairs update (ids bd-0141+, bd-f101+). Its interim findings, including BCS/PSC news, are saved in the session scratchpad as `bd_interim_report.md`. If it is lost, rerun the Bangladesh part of the brief.
+2. Fact-check the new Bangladesh items, then update the exam guide timeline (`assets/js/views/guide.js`), the dashboard's "Exam date not set" text and `BCS.meta.lastVerified` in `data/syllabus.js` with the latest BCS circular news.
+3. Run `node tools/validate.js` (it must show 0 errors) and commit.
+4. Make the GitHub repository `AbirHasanPiash/bcs-prep` public, then turn on Pages (branch `main`, folder `/`): `gh api -X POST repos/AbirHasanPiash/bcs-prep/pages -f "source[branch]=main" -f "source[path]=/"`.
+5. Check the live site at https://abirhasanpiash.github.io/bcs-prep/ on a phone.
+
 ## Done
 
 - **The app:** `index.html`, `assets/` (dashboard, exam guide, syllabus tracker, notes reader, practice, mock tests, flashcards, review, planner, settings, search). Tested in headless Chrome: every page loads with no errors, the main flows work, and a mock test survives a page reload.
