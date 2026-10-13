@@ -1,0 +1,16 @@
+{
+  "name": "BCS Prep: Preliminary",
+  "short_name": "BCS Prep",
+  "description": "Free BCS Preliminary preparation: MCQs with explanations, notes for every syllabus topic, timed mock tests, flashcards and a study planner.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f5f2",
+  "theme_color": "#f4f5f2",
+  "lang": "en",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
