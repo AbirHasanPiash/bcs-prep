@@ -1,4 +1,4 @@
-/* Exam guide: what the BCS is, how the preliminary works, and how to approach it. Facts verified on 7 Oct 2026. */
+/* Exam guide: what the BCS is, how the preliminary works, and how to approach it. Facts verified on 14 Oct 2026. */
 (function () {
   'use strict';
   var U = App.util, UI = App.ui, B = window.BCS;
@@ -24,25 +24,26 @@
     root.innerHTML =
       '<div class="stack">' +
 
-      UI.callout('<strong>Checked on 7 October 2026.</strong> PSC rules change. Always confirm with the official circular on <strong>bpsc.gov.bd</strong> before you apply or plan around a date.', '', 'info') +
+      UI.callout('<strong>Checked on 14 October 2026.</strong> PSC rules change. Always confirm with the official circular on <strong>bpsc.gov.bd</strong> before you apply or plan around a date.', '', 'info') +
 
       '<div class="grid cols-2">' +
         '<div class="card prose"><h2>Which BCS is next?</h2>' +
           '<ol class="timeline">' +
-            '<li><div class="when">26 Nov 2025</div><strong>50th BCS circular</strong> (general): 2,150 posts (1,755 cadre, 395 non-cadre).</li>' +
-            '<li><div class="when">30 Jan 2026</div><strong>50th BCS preliminary</strong> held with the new marks distribution, with about 290,000 applicants.</li>' +
-            '<li><div class="when">24 Sep 2026</div><strong>51st BCS circular</strong>: a <em>special</em> BCS for 5,000 doctors (assistant and dental surgeons). Preliminary plus a 100-mark viva, no written exam. Applications run 1–25 Oct 2026.</li>' +
-            '<li class="next"><div class="when">Expected Nov 2026</div><strong>Next general BCS circular</strong>, most likely numbered the 52nd. PSC has said it plans to publish it in November in line with its calendar. Not yet confirmed.</li>' +
+            '<li><div class="when">26 Nov 2025</div><strong>50th BCS circular</strong> (general): about 2,150 posts, 395 of them non-cadre.</li>' +
+            '<li><div class="when">30 Jan 2026</div><strong>50th BCS preliminary</strong>, the first with the new marks distribution: about 290,000 applicants, 12,385 passed.</li>' +
+            '<li><div class="when">23 Jul 2026</div><strong>50th BCS written result</strong>: 6,165 passed. Vivas ran from 11 Aug to 29 Sep 2026, and PSC aims to publish the final result by late November.</li>' +
+            '<li><div class="when">24 Sep 2026</div><strong>51st BCS circular</strong>: a <em>special</em> BCS for 5,000 doctors (4,700 assistant surgeons and 300 assistant dental surgeons). One 200-mark MCQ test and a 100-mark viva, with no separate written exam. Applications run 1–25 Oct 2026, and the test may be held in November.</li>' +
+            '<li class="next"><div class="when">Expected Nov 2026</div><strong>Next general BCS circular: the 52nd</strong> (the doctors\' round took the number 51). PSC\'s calendar plans it for November. As of 14 Oct 2026 it has not been published, and the number of posts is not final.</li>' +
             '<li><div class="when">Estimate: early 2027</div><strong>Its preliminary.</strong> The 50th BCS prelim came about 9 weeks after its circular. If the next one follows the same pattern, expect roughly January–February 2027. This is an estimate, not an announcement.</li>' +
           '</ol>' +
-          '<p class="small muted mb-0">If you are a doctor, the 51st (special) BCS is open now. Everyone else should prepare for the next general BCS.</p>' +
+          '<p class="small muted mb-0">If you are a doctor, the 51st (special) BCS is open until 25 Oct 2026. Everyone else should prepare for the 52nd, the next general BCS.</p>' +
         '</div>' +
 
         '<div class="card prose"><h2>How the BCS works</h2>' +
           '<div class="stack-sm">' +
             '<div class="row top"><span class="stage"><span class="n">1</span></span><div><strong>Preliminary test (MCQ)</strong>: 200 marks, 2 hours. It is a screening test: you must pass it, but its marks do not count in the final merit list. <em>This site prepares you for this stage.</em></div></div>' +
             '<div class="row top"><span class="stage"><span class="n">2</span></span><div><strong>Written exam</strong>: 900 marks for general or technical/professional cadres. Candidates who choose both kinds of cadre also sit 200 marks of technical-subject papers.</div></div>' +
-            '<div class="row top"><span class="stage"><span class="n">3</span></span><div><strong>Viva voce</strong>: 100 marks, cut from 200 from the 47th BCS onward. That makes the final total 1,000 (written + viva).</div></div>' +
+            '<div class="row top"><span class="stage"><span class="n">3</span></span><div><strong>Viva voce</strong>: 100 marks, cut from 200 from the 47th BCS onward (SRO 412-I/2024, December 2024). That makes the final total 1,000 (written + viva).</div></div>' +
           '</div>' +
           '<h3>Eligibility and application (current rules)</h3>' +
           '<ul>' +
@@ -50,6 +51,7 @@
             '<li><strong>No limit on attempts</strong> while you are within the age range.</li>' +
             '<li>A bachelor\'s degree is required. The circular lists the exact qualification and result conditions.</li>' +
             '<li><strong>Application fee: Tk 200</strong> (Tk 50 for ethnic-minority, disabled and third-gender candidates), from the 50th BCS onward. You apply online through <strong>bpsc.teletalk.com.bd</strong>.</li>' +
+            '<li>The exam is run by the <strong>Bangladesh Public Service Commission (PSC)</strong>. Its chairman since September 2026 is Prof. Dr. Mohammad Nazmuzzaman Bhuiyan.</li>' +
           '</ul>' +
         '</div>' +
       '</div>' +
@@ -62,7 +64,7 @@
           '<div class="stat"><div class="stat-label">Language</div><div class="stat-value" style="font-size:22px">Bangla</div><div class="stat-sub">The English section is in English</div></div>' +
         '</div>' +
         marksTable() +
-        '<p class="small muted mt-16 mb-0">International Affairs, Mathematical Reasoning and Ethics gained 5 marks each. Bangla, English and Bangladesh Affairs lost 5 each. A lot of guidebooks and websites still show the old split, so plan with the new one.</p>' +
+        '<p class="small muted mt-16 mb-0">International Affairs, Mathematical Reasoning and Ethics gained 5 marks each. Bangla, English and Bangladesh Affairs lost 5 each. A lot of guidebooks and websites still show the old split, so plan with the new one. In April 2026 the government said a committee is reviewing the BCS syllabus with a view to more skill-based testing. No new syllabus has been issued, so this distribution still applies; check the 52nd BCS circular when it comes out.</p>' +
       '</div>' +
 
       '<div class="grid cols-2">' +
@@ -115,7 +117,10 @@
       '<div class="card prose"><h2>Sources</h2>' +
         '<ul class="small">' +
           '<li>Prothom Alo, “50th BCS preliminary: Changes in marks distribution” (1 Dec 2025) and “50th BCS preliminary exam syllabus published” (10 Dec 2025)</li>' +
-          '<li>Prothom Alo, “51st special BCS circular issued with 5,000 posts” (24 Sep 2026) and “51st BCS circular in November” (14 Aug 2026)</li>' +
+          '<li>Prothom Alo, “51st special BCS circular issued with 5,000 posts” (24 Sep 2026) and “51st BCS circular in November” (14 Aug 2026); BPSC, 51st BCS circular (24 Sep 2026)</li>' +
+          '<li>Dhaka Tribune, “6,165 candidates pass 50th BCS written test” (23 Jul 2026) and “State minister: BCS exam syllabus to be changed” (16 Apr 2026)</li>' +
+          '<li>Prothom Alo, “BCS viva marks reduced to 100, total marks stand at 1000”; The Business Standard, “BCS viva marks to remain at 100” (state minister)</li>' +
+          '<li>BSS and Prothom Alo reports on the new PSC chairman (2–6 Sep 2026)</li>' +
           '<li>Dhaka Tribune, “Gazette published increasing the maximum age for the BCS exam to 32” (11 Dec 2024)</li>' +
           '<li>Prothom Alo / bdnews24 reports on the viva cut from 200 to 100 marks (from the 47th BCS) and the fee cut to Tk 200</li>' +
           '<li>Bangladesh Public Service Commission: bpsc.gov.bd</li>' +

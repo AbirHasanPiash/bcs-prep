@@ -41,7 +41,7 @@ The questions and notes were written for this site to match the syllabus and the
 - **Marks distribution (from the 50th BCS):** Bangla 30, English 30, Bangladesh Affairs 25, International Affairs 25, Geography/Environment/Disaster Management 10, General Science 15, Computer & IT 15, Mathematical Reasoning 20, Mental Ability 15, Ethics/Values/Good Governance 15.
 - 2 hours, 200 marks, −0.50 per wrong answer.
 - Age limit 21–32, with no limit on attempts. Viva is 100 marks (from the 47th BCS). Application fee Tk 200.
-- The 51st BCS (circular 24 Sep 2026) is a special BCS for doctors. PSC has said the next **general** BCS circular is planned for around November 2026.
+- The 51st BCS (circular 24 Sep 2026) is a special BCS for doctors, so the next **general** BCS is the 52nd. PSC plans its circular for around November 2026.
 
 ---
 

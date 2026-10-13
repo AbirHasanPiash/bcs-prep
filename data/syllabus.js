@@ -7,7 +7,7 @@
   var BCS = (root.BCS = root.BCS || {});
 
   BCS.meta = {
-    lastVerified: '2026-10-07',
+    lastVerified: '2026-10-14',
     currentAffairs: '2026-10-14',   // time-sensitive questions and notes checked up to this date
     syllabusBasis: '50th BCS preliminary syllabus (PSC, published 9 Dec 2025)'
   };
