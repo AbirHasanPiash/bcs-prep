@@ -2,22 +2,28 @@
 
 All work is saved as plain files in this folder. Nothing lives only inside a Claude session. If a session ends mid-build, everything written so far is still here and can be picked up from this page.
 
-## Current work: public release and 14 Oct 2026 update (in progress)
+## Public release and the 14 Oct 2026 update
 
-If a session stopped part-way, this is where things stand. Everything listed as done is committed in git.
+Done on 14 Oct 2026, committed in git:
+- Phone layouts fixed and tested on every page at 320, 360, 390, 768 and 1280 px, in light and dark mode. All 97 notes checked at 360 px.
+- GitHub Pages files: `.nojekyll` (needed because `data/_registry.js` starts with an underscore), `manifest.webmanifest`, `assets/icons/`, social tags in `index.html`, the public `README.md`, and `?v=` release dates on asset URLs.
+- New features: "Report a mistake" links (GitHub issues), an About card in Settings, and a "Current affairs" practice set (every question with `asOf`).
+- Current affairs updated to 14 Oct 2026 in Bangladesh Affairs, International Affairs, Science, ICT and Geography: 141 new questions, 102 new flashcards and 25 updated notes. Surprising claims were spot-checked against news sources.
+- Exam guide: BCS news as of 14 Oct 2026, covering the 50th BCS progress, the 51st (special, doctors), the 52nd as the next general BCS, the viva rule, the new PSC chairman and the syllabus review.
 
-**Done**
-- Phone layouts fixed and tested on every page at 320, 360, 390, 768 and 1280 px (light and dark).
-- GitHub Pages files: `.nojekyll` (needed because `data/_registry.js` starts with an underscore), `manifest.webmanifest`, `assets/icons/`, social tags in `index.html`, public `README.md`, `?v=` release dates on asset URLs.
-- New features: "Report a mistake" links (GitHub issues), an About card in Settings, a "Current affairs" practice set (all questions with `asOf`).
-- Current affairs to 14 Oct 2026: International Affairs (ia-0147 to ia-0214, ia-f101 to ia-f149; notes ia-current, ia-misc, ia-economy, ia-un, ia-orgs, ia-conflicts, ia-treaties), Science/ICT/Geography (sci-0111+, ict-0114+, geo-0081+, matching flashcards; 9 notes). The surprising claims were spot-checked against news sources (UK PM, the 2026 Nobels, Brazil, Morocco, West Bengal, OPEC, the UN Security Council, sports results, index ranks, Rooppur).
+Totals: 1,372 questions, 97 notes, 892 flashcards. `node tools/validate.js` reports 0 errors.
 
-**Still to do**
-1. Bangladesh Affairs update (ids bd-0141+, bd-f101+). Its interim findings, including BCS/PSC news, are saved in the session scratchpad as `bd_interim_report.md`. If it is lost, rerun the Bangladesh part of the brief.
-2. Fact-check the new Bangladesh items, then update the exam guide timeline (`assets/js/views/guide.js`), the dashboard's "Exam date not set" text and `BCS.meta.lastVerified` in `data/syllabus.js` with the latest BCS circular news.
-3. Run `node tools/validate.js` (it must show 0 errors) and commit.
-4. Make the GitHub repository `AbirHasanPiash/bcs-prep` public, then turn on Pages (branch `main`, folder `/`): `gh api -X POST repos/AbirHasanPiash/bcs-prep/pages -f "source[branch]=main" -f "source[path]=/"`.
-5. Check the live site at https://abirhasanpiash.github.io/bcs-prep/ on a phone.
+**Facts due for refresh** (dates in 2026 unless noted):
+- 16 Oct onward: UN Security Council straw polls for the next Secretary-General.
+- 25 Oct: Brazil runoff; 51st BCS applications close.
+- 26 Oct: Ballon d'Or.
+- 29 Oct: Thakurgaon-1 by-election.
+- November: the 52nd BCS circular (marks, dates and posts); COP31 in Antalya (9–20 Nov); APEC Shenzhen (18–19 Nov).
+- 9 Nov: Booker Prize.
+- By 24 Nov: the UN General Assembly decision on deferring LDC graduation.
+- About 20 Nov: Rooppur start-up.
+- 25 Nov: 50th BCS final result.
+- December: the Ganges Treaty expires; Nobel ceremonies on 10 Dec; G20 in Doral; Guterres' term ends on 31 Dec.
 
 ## Done
 

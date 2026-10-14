@@ -22,7 +22,7 @@ No sign-up and nothing to install. It works on phones, tablets and computers, in
 | **Review** | Questions you last got wrong, your bookmarks, and the ones you miss most |
 | **Study planner** | Spreads the remaining topics over the days until your exam, with weekly mocks and a final revision phase |
 
-Content: 1,200+ MCQs with explanations, notes for all 97 syllabus topics and 800+ flashcards, written to the current (50th BCS) marks distribution. **Current affairs are updated to 14 October 2026.**
+Content: 1,370+ MCQs with explanations, notes for all 97 syllabus topics and 890 flashcards, written to the current (50th BCS) marks distribution. **Current affairs are updated to 14 October 2026.**
 
 ## Using it on your phone
 
